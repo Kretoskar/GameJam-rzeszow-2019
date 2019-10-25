@@ -15,6 +15,6 @@ public class Needle : MonoBehaviour
     {
         if (!spinner.IsStoped)
             return;
-        print(collision.gameObject.GetComponent<SpinnerBiom>().BiomType);
+        FindObjectOfType<EventToLoad>().SetEventToLoad(collision.gameObject.GetComponent<SpinnerBiom>().BiomType);
     }
 }
