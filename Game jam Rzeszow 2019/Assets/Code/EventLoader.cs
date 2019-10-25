@@ -9,18 +9,28 @@ public class EventLoader : MonoBehaviour
 
     private LoadFromSO loadFromSo;
     private CurrentEvent currentEvent;
+    private EventToLoad eventToLoad;
 
     private void Start()
     {
         currentEvent = FindObjectOfType<CurrentEvent>();
         loadFromSo = FindObjectOfType<LoadFromSO>();
+        eventToLoad = FindObjectOfType<EventToLoad>();
         LoadRandom();
     }
 
     public void LoadRandom()
     {
-        int loadIndex = UnityEngine.Random.Range(0, events.Count);
-        loadFromSo.Load(events[loadIndex]);
-        currentEvent.CurrentEventSO = events[loadIndex];
+        List<EventSO> biomEvents = new List<EventSO>();
+        foreach(EventSO biomEvent in events)
+        {
+            if(biomEvent.EventType == eventToLoad.EventToLoadSO.EventToLoad)
+            {
+                biomEvents.Add(biomEvent);
+            }
+        }
+        int loadIndex = UnityEngine.Random.Range(0, biomEvents.Count);
+        loadFromSo.Load(biomEvents[loadIndex]);
+        currentEvent.CurrentEventSO = biomEvents[loadIndex];
     }
 }

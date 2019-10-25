@@ -28,6 +28,7 @@ public class Variables : MonoBehaviour
             if (people < 0)
                 people = 0;
             peopleImg.fillAmount = (float)people / 100;
+            PlayerPrefs.SetInt("People", people);
         }
     }
     private int nature;
@@ -45,6 +46,7 @@ public class Variables : MonoBehaviour
             if (nature < 0)
                 nature = 0;
             natureImg.fillAmount = (float)nature / 100;
+            PlayerPrefs.SetInt("Nature", nature);
         }
     }
     private int industry;
@@ -62,6 +64,7 @@ public class Variables : MonoBehaviour
             if (industry < 0)
                 industry = 0;
             industryImg.fillAmount = (float)industry / 100;
+            PlayerPrefs.SetInt("Industry", industry);
         }
     }
     private int science;
@@ -79,14 +82,15 @@ public class Variables : MonoBehaviour
             if (science < 0)
                 science = 0;
             scienceImg.fillAmount = (float)science / 100;
+            PlayerPrefs.SetInt("Science", science);
         }
     }
 
     private void Start()
     {
-        People = 50;
-        Nature = 50;
-        Industry = 50;
-        Science = 50;
+        People = PlayerPrefs.GetInt("People", 50);
+        Nature = PlayerPrefs.GetInt("Nature", 50);
+        Industry = PlayerPrefs.GetInt("Industry", 50);
+        Science = PlayerPrefs.GetInt("Science", 50);
     }
 }
