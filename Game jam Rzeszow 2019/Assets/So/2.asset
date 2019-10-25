@@ -29,4 +29,4 @@ MonoBehaviour:
   CToPeople: 12
   CToNature: 0
   CToIndustry: 50
-  CToScience: -12
+  CToScience: -100
