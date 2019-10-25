@@ -8,6 +8,6 @@ public class SpinnerSceneLoader : MonoBehaviour
 
     public void LoadSpinner()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 }

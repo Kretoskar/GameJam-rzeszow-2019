@@ -11,10 +11,13 @@ public class Spinner : MonoBehaviour
     private bool isStoped = false;
     private bool startSpinning = false;
 
+    private Variables vars;
+
     public bool IsStoped { get => isStoped; set => isStoped = value; }
 
     void Start()
     {
+        vars = FindObjectOfType<Variables>();
         reducer = UnityEngine.Random.Range(0.01f, 0.5f);
         Reset();
     }
@@ -52,6 +55,7 @@ public class Spinner : MonoBehaviour
     public void StartSpinning()
     {
         startSpinning = true;
+        vars.DaysSurvived += 1;
     }
 
     void Reset()

@@ -23,6 +23,6 @@ public class Needle : MonoBehaviour
     IEnumerator LoadSceneAfterSeconds()
     {
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

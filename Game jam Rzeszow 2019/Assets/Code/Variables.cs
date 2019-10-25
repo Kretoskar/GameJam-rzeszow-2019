@@ -86,11 +86,25 @@ public class Variables : MonoBehaviour
         }
     }
 
-    private void Start()
+    private int daysSurvived;
+    public int DaysSurvived {
+        get
+        {
+            return PlayerPrefs.GetInt("DaysSurvived", 0);
+        }
+        set
+        {
+            daysSurvived = value;
+            PlayerPrefs.SetInt("DaysSurvived", daysSurvived);
+        }
+    }
+
+    private void Awake()
     {
         People = PlayerPrefs.GetInt("People", 50);
         Nature = PlayerPrefs.GetInt("Nature", 50);
         Industry = PlayerPrefs.GetInt("Industry", 50);
         Science = PlayerPrefs.GetInt("Science", 50);
+        DaysSurvived = PlayerPrefs.GetInt("DaysSurvived", 0);
     }
 }
