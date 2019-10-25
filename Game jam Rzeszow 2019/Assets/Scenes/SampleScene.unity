@@ -516,6 +516,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 0d7e18bbccf9f6842bb7aa583b90075f, type: 2}
   - {fileID: 11400000, guid: 75e47cf0d1e2a4d42bcba7f1d38cbc89, type: 2}
   - {fileID: 11400000, guid: 6ae7a47abb12c1d4781bbd324f7b8d41, type: 2}
+  - {fileID: 11400000, guid: 71a706547b265a14fb6e44595649dd98, type: 2}
 --- !u!4 &445907864
 Transform:
   m_ObjectHideFlags: 0
@@ -1623,8 +1624,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -509.4, y: 93.7}
-  m_SizeDelta: {x: 668.9, y: 651}
+  m_AnchoredPosition: {x: -482.33, y: 93.7}
+  m_SizeDelta: {x: 723.05, y: 651}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1267250096
 MonoBehaviour:
@@ -1868,10 +1869,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 64
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 4
     m_MaxSize: 64
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1879,7 +1880,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: B txtB txtB txtB txtB txtB txt
+  m_Text: "Musimy obj\u0105\u0107 nasze lasy ochron\u0105. Wst\u0119p do nich b\u0119dzie
+    ograniczony."
 --- !u!1 &1381985191
 GameObject:
   m_ObjectHideFlags: 0
@@ -1967,10 +1969,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 64
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 4
     m_MaxSize: 64
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -1978,7 +1980,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: C txtC txtC txtC txtC txtC txt
+  m_Text: "Musimy obj\u0105\u0107 nasze lasy ochron\u0105. Wst\u0119p do nich b\u0119dzie
+    ograniczony."
 --- !u!222 &1424371854
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2578,10 +2581,10 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 64
+    m_FontSize: 42
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 0
     m_MaxSize: 64
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -2589,7 +2592,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: A Text A TextA TextA Text
+  m_Text: "Musimy obj\u0105\u0107 nasze lasy ochron\u0105. Wst\u0119p do nich b\u0119dzie
+    ograniczony."
 --- !u!222 &2072759197
 CanvasRenderer:
   m_ObjectHideFlags: 0

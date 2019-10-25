@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
+  m_Name: Event_1
+  m_EditorClassIdentifier: 
+  eventText: "Dzi\u0119ki dzia\u0142alno\u015Bci lokalnego artysty Nosa Rossa, mieszka\u0144cy
+    miasta zaczynaj\u0105 docenia\u0107 pi\u0119kno okolicznej natury. Niestety odwiedzaj\u0105c
+    pobliskie lasy, zostawiaj\u0105 \u015Bmieci.  "
+  answerAText: "Musimy obj\u0105\u0107 nasze lasy ochron\u0105. Wst\u0119p do nich
+    b\u0119dzie ograniczony.  "
+  answerBText: "Mo\u017Cemy wykorzysta\u0107 t\u0142umy do nowego programu naukowego"
+  answerCText: "To znak, \u017Ce ludziom brakuje zielonych przestrzeni w mie\u015Bcie.
+    Rozpoczniemy budow\u0119 nowych park\xF3w."
+  backgroundSprite: {fileID: 0}
+  eventType: 1
+  AToPeople: -20
+  AToNature: 25
+  AToIndustry: 0
+  AToScience: 0
+  BToPeople: 5
+  BToNature: -20
+  BToIndustry: 0
+  BToScience: 10
+  CToPeople: 10
+  CToNature: 10
+  CToIndustry: -20
+  CToScience: 0
