@@ -12,6 +12,7 @@ public class EventLoader : MonoBehaviour
     private void Start()
     {
         loadFromSo = FindObjectOfType<LoadFromSO>();
-        loadFromSo.Load(events[0]);
+        int loadIndex = UnityEngine.Random.Range(0, events.Count);
+        loadFromSo.Load(events[loadIndex]);
     }
 }
