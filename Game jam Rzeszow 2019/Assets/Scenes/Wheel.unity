@@ -130,6 +130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 35228126}
   - component: {fileID: 35228127}
+  - component: {fileID: 35228128}
   m_Layer: 0
   m_Name: Yellow2
   m_TagString: Untagged
@@ -181,6 +182,19 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &35228128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 35228125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 2
 --- !u!1 &86978624
 GameObject:
   m_ObjectHideFlags: 0
@@ -191,6 +205,7 @@ GameObject:
   m_Component:
   - component: {fileID: 86978625}
   - component: {fileID: 86978626}
+  - component: {fileID: 86978627}
   m_Layer: 0
   m_Name: Red2
   m_TagString: Untagged
@@ -242,6 +257,19 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &86978627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 86978624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 0
 --- !u!1 &375979415
 GameObject:
   m_ObjectHideFlags: 0
@@ -331,6 +359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 624113406}
   - component: {fileID: 624113407}
+  - component: {fileID: 624113408}
   m_Layer: 0
   m_Name: Green1
   m_TagString: Untagged
@@ -382,6 +411,19 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &624113408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 624113405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 1
 --- !u!1 &674398955
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,6 +434,7 @@ GameObject:
   m_Component:
   - component: {fileID: 674398956}
   - component: {fileID: 674398957}
+  - component: {fileID: 674398958}
   m_Layer: 0
   m_Name: Yellow1
   m_TagString: Untagged
@@ -443,6 +486,19 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &674398958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674398955}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 2
 --- !u!1 &681597866
 GameObject:
   m_ObjectHideFlags: 0
@@ -519,6 +575,7 @@ GameObject:
   m_Component:
   - component: {fileID: 799204126}
   - component: {fileID: 799204127}
+  - component: {fileID: 799204128}
   m_Layer: 0
   m_Name: Blue2
   m_TagString: Untagged
@@ -570,6 +627,19 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &799204128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 799204125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 3
 --- !u!1 &976897344
 GameObject:
   m_ObjectHideFlags: 0
@@ -673,7 +743,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reducer: 0.4375363
   multiplier: 1
-  isStoped: 0
 --- !u!1 &1055745257
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +888,7 @@ GameObject:
   - component: {fileID: 1084834199}
   - component: {fileID: 1084834201}
   - component: {fileID: 1084834200}
+  - component: {fileID: 1084834202}
   m_Layer: 0
   m_Name: Needle spike
   m_TagString: Untagged
@@ -936,6 +1006,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.01, y: 0.01}
   m_EdgeRadius: 0
+--- !u!114 &1084834202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1084834197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30823a40017e49844b90b96f0ba06e33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1361968977
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,6 +1028,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1361968978}
   - component: {fileID: 1361968979}
+  - component: {fileID: 1361968980}
   m_Layer: 0
   m_Name: Red1
   m_TagString: Untagged
@@ -997,6 +1080,19 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &1361968980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1361968977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 0
 --- !u!1 &1447946386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1007,6 +1103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447946387}
   - component: {fileID: 1447946388}
+  - component: {fileID: 1447946389}
   m_Layer: 0
   m_Name: Green2
   m_TagString: Untagged
@@ -1058,6 +1155,19 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &1447946389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1447946386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 1
 --- !u!1 &1635780291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,6 +1441,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2109971077}
   - component: {fileID: 2109971078}
+  - component: {fileID: 2109971079}
   m_Layer: 0
   m_Name: Blue1
   m_TagString: Untagged
@@ -1382,3 +1493,16 @@ PolygonCollider2D:
       - {x: -0.057492286, y: 0.15349728}
       - {x: -0.10300157, y: 0.7622561}
       - {x: -0.10820007, y: 1.3746536}
+--- !u!114 &2109971079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109971076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea5f0e0e6a155134abebf68fee56a340, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  biomType: 3

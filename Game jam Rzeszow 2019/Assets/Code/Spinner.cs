@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,12 +8,14 @@ public class Spinner : MonoBehaviour
     public float reducer;
     public float multiplier = 1;
     bool round1 = false;
-    public bool isStoped = false;
+    private bool isStoped = false;
     private bool startSpinning = false;
+
+    public bool IsStoped { get => isStoped; set => isStoped = value; }
 
     void Start()
     {
-        reducer = Random.Range(0.01f, 0.5f);
+        reducer = UnityEngine.Random.Range(0.01f, 0.5f);
         Reset();
     }
 
@@ -27,7 +30,7 @@ public class Spinner : MonoBehaviour
             }
             else
             {
-                isStoped = true;
+                IsStoped = true;
             }
 
             if (multiplier < 20 && !round1)
@@ -54,8 +57,8 @@ public class Spinner : MonoBehaviour
     void Reset()
     {
         multiplier = 1;
-        reducer = Random.Range(0.01f, 0.5f);
+        reducer = UnityEngine.Random.Range(0.01f, 0.5f);
         round1 = false;
-        isStoped = false;
+        IsStoped = false;
     }
 }
