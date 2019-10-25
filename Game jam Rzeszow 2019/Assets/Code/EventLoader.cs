@@ -8,17 +8,19 @@ public class EventLoader : MonoBehaviour
     private List<EventSO> events = new List<EventSO>();
 
     private LoadFromSO loadFromSo;
+    private CurrentEvent currentEvent;
 
     private void Start()
     {
+        currentEvent = FindObjectOfType<CurrentEvent>();
         loadFromSo = FindObjectOfType<LoadFromSO>();
-        int loadIndex = UnityEngine.Random.Range(0, events.Count);
-        loadFromSo.Load(events[loadIndex]);
+        LoadRandom();
     }
 
     public void LoadRandom()
     {
         int loadIndex = UnityEngine.Random.Range(0, events.Count);
         loadFromSo.Load(events[loadIndex]);
+        currentEvent.CurrentEventSO = events[loadIndex];
     }
 }

@@ -23,7 +23,9 @@ public class Variables : MonoBehaviour
         set
         {
             people = value;
-            peopleImg.fillAmount = people / 100;
+            if (people > 100)
+                people = 100;
+            peopleImg.fillAmount = (float)people / 100;
         }
     }
     private int nature;
@@ -36,7 +38,9 @@ public class Variables : MonoBehaviour
         set
         {
             nature = value;
-            natureImg.fillAmount = people / 100;
+            if (nature > 100)
+                nature = 100;
+            natureImg.fillAmount = (float)people / 100;
         }
     }
     private int industry;
@@ -49,7 +53,9 @@ public class Variables : MonoBehaviour
         set
         {
             industry = value;
-            industryImg.fillAmount = people / 100;
+            if (industry > 100)
+                industry = 100;
+            industryImg.fillAmount = (float)people / 100;
         }
     }
     private int science;
@@ -62,15 +68,17 @@ public class Variables : MonoBehaviour
         set
         {
             science = value;
-            scienceImg.fillAmount = people / 100;
+            if (science > 100)
+                science = 100;
+            scienceImg.fillAmount = (float)people / 100;
         }
     }
 
     private void Start()
     {
-        People = 100;
-        Nature = 100;
-        Industry = 100;
-        Science = 100;
+        People = 50;
+        Nature = 50;
+        Industry = 50;
+        Science = 50;
     }
 }
