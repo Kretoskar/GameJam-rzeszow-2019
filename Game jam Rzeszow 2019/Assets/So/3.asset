@@ -18,14 +18,14 @@ MonoBehaviour:
   answerCText: do C
   backgroundSprite: {fileID: 0}
   AToPeople: 10
-  AToNature: 11
+  AToNature: 0
   AToIndustry: 12
-  AToScience: 13
-  BToPeople: 1
-  BToNature: 2
+  AToScience: -2
+  BToPeople: 20
+  BToNature: 12
   BToIndustry: 3
-  BToScience: 4
-  CToPeople: 20
-  CToNature: 21
-  CToIndustry: 22
-  CToScience: 23
+  BToScience: 0
+  CToPeople: 10
+  CToNature: -20
+  CToIndustry: 3
+  CToScience: -5
