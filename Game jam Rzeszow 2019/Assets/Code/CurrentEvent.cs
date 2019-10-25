@@ -9,19 +9,24 @@ public class CurrentEvent : MonoBehaviour
 
     private Variables variables;
 
-    private void Start()
+    public EventSO CurrentEventSO
     {
-        variables = FindObjectOfType<Variables>();
-    }
-
-    public EventSO CurrentEventSO { get
+        get
         {
             return currentEvent;
         }
         set
         {
             currentEvent = value;
+            WasCurrentEventClicked = false;
         }
+    }
+
+    public bool WasCurrentEventClicked = false;
+
+    private void Start()
+    {
+        variables = FindObjectOfType<Variables>();
     }
 
     public void AClicked()
@@ -41,9 +46,12 @@ public class CurrentEvent : MonoBehaviour
 
     private void UpdateVars(int p, int n, int i, int s)
     {
-        variables.People += p;
-        variables.Nature += n;
-        variables.Industry += i;
-        variables.Science += s;
+        if (!WasCurrentEventClicked) {
+            variables.People += p;
+            variables.Nature += n;
+            variables.Industry += i;
+            variables.Science += s;
+            WasCurrentEventClicked = true;
+        }
     }
 }
