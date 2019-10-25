@@ -17,10 +17,10 @@ MonoBehaviour:
   answerBText: do B
   answerCText: do C
   backgroundSprite: {fileID: 0}
-  AToPeople: 10
-  AToNature: 11
-  AToIndustry: 12
-  AToScience: 13
+  AToPeople: -10
+  AToNature: -11
+  AToIndustry: -12
+  AToScience: -13
   BToPeople: 1
   BToNature: 2
   BToIndustry: 3

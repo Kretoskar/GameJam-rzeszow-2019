@@ -25,6 +25,8 @@ public class Variables : MonoBehaviour
             people = value;
             if (people > 100)
                 people = 100;
+            if (people < 0)
+                people = 0;
             peopleImg.fillAmount = (float)people / 100;
         }
     }
@@ -40,6 +42,8 @@ public class Variables : MonoBehaviour
             nature = value;
             if (nature > 100)
                 nature = 100;
+            if (nature < 0)
+                nature = 0;
             natureImg.fillAmount = (float)people / 100;
         }
     }
@@ -55,6 +59,8 @@ public class Variables : MonoBehaviour
             industry = value;
             if (industry > 100)
                 industry = 100;
+            if (industry < 0)
+                industry = 0;
             industryImg.fillAmount = (float)people / 100;
         }
     }
@@ -70,6 +76,8 @@ public class Variables : MonoBehaviour
             science = value;
             if (science > 100)
                 science = 100;
+            if (science < 0)
+                science = 0;
             scienceImg.fillAmount = (float)people / 100;
         }
     }
