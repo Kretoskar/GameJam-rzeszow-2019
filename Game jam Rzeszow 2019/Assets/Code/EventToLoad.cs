@@ -7,8 +7,10 @@ public class EventToLoad : MonoBehaviour
     [SerializeField]
     private EventToLoadSO eventToLoadSO;
 
+    public EventToLoadSO EventToLoadSO { get => eventToLoadSO; set => eventToLoadSO = value; }
+
     public void SetEventToLoad(EventType eventToload)
     {
-        eventToLoadSO.EventToLoad = eventToload;
+        EventToLoadSO.EventToLoad = eventToload;
     }
 }

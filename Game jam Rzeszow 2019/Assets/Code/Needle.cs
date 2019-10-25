@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Needle : MonoBehaviour
 {
@@ -16,5 +17,12 @@ public class Needle : MonoBehaviour
         if (!spinner.IsStoped)
             return;
         FindObjectOfType<EventToLoad>().SetEventToLoad(collision.gameObject.GetComponent<SpinnerBiom>().BiomType);
+        StartCoroutine("LoadSceneAfterSeconds");
+    }
+
+    IEnumerator LoadSceneAfterSeconds()
+    {
+        yield return new WaitForSeconds(2);
+        SceneManager.LoadScene(0);
     }
 }

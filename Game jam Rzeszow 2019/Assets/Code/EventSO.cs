@@ -65,6 +65,7 @@ public class EventSO : ScriptableObject
     public int CToNature1 { get => CToNature; set => CToNature = value; }
     public int CToIndustry1 { get => CToIndustry; set => CToIndustry = value; }
     public int CToScience1 { get => CToScience; set => CToScience = value; }
+    public EventType EventType { get => eventType; set => eventType = value; }
 }
 
 public enum EventType
