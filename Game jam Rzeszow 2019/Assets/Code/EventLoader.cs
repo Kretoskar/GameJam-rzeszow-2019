@@ -15,4 +15,10 @@ public class EventLoader : MonoBehaviour
         int loadIndex = UnityEngine.Random.Range(0, events.Count);
         loadFromSo.Load(events[loadIndex]);
     }
+
+    public void LoadRandom()
+    {
+        int loadIndex = UnityEngine.Random.Range(0, events.Count);
+        loadFromSo.Load(events[loadIndex]);
+    }
 }
