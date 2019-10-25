@@ -15,6 +15,8 @@ public class EventSO : ScriptableObject
     private string answerCText;
     [SerializeField]
     private Sprite backgroundSprite;
+    [SerializeField]
+    private EventType eventType;
 
     [Header("A")]
     [SerializeField]
@@ -63,4 +65,12 @@ public class EventSO : ScriptableObject
     public int CToNature1 { get => CToNature; set => CToNature = value; }
     public int CToIndustry1 { get => CToIndustry; set => CToIndustry = value; }
     public int CToScience1 { get => CToScience; set => CToScience = value; }
+}
+
+public enum EventType
+{
+    City,
+    Forest,
+    Factories,
+    Reaserch
 }

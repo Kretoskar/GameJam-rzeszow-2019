@@ -17,6 +17,7 @@ MonoBehaviour:
   answerBText: do B
   answerCText: do C
   backgroundSprite: {fileID: 0}
+  eventType: 1
   AToPeople: 11
   AToNature: 0
   AToIndustry: -11
