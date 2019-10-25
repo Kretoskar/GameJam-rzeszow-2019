@@ -28,7 +28,8 @@ public class Variables : MonoBehaviour
                 people = 100;
             if (people < 0)
                 GameOver();
-            peopleImg.fillAmount = (float)people / 100;
+            if(peopleImg != null)
+                peopleImg.fillAmount = (float)people / 100;
             PlayerPrefs.SetInt("People", people);
         }
     }
@@ -46,7 +47,8 @@ public class Variables : MonoBehaviour
                 nature = 100;
             if (nature < 0)
                 GameOver();
-            natureImg.fillAmount = (float)nature / 100;
+            if(natureImg != null)
+                natureImg.fillAmount = (float)nature / 100;
             PlayerPrefs.SetInt("Nature", nature);
         }
     }
@@ -64,7 +66,8 @@ public class Variables : MonoBehaviour
                 industry = 100;
             if (industry < 0)
                 GameOver();
-            industryImg.fillAmount = (float)industry / 100;
+            if(industryImg != null)
+                industryImg.fillAmount = (float)industry / 100;
             PlayerPrefs.SetInt("Industry", industry);
         }
     }
@@ -82,7 +85,8 @@ public class Variables : MonoBehaviour
                 science = 100;
             if (science < 0)
                 GameOver();
-            scienceImg.fillAmount = (float)science / 100;
+            if(scienceImg != null)
+                scienceImg.fillAmount = (float)science / 100;
             PlayerPrefs.SetInt("Science", science);
         }
     }
