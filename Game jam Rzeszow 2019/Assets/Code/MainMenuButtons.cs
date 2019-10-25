@@ -11,6 +11,7 @@ public class MainMenuButtons : MonoBehaviour
         PlayerPrefs.SetInt("Nature", 50);
         PlayerPrefs.SetInt("Industry", 50);
         PlayerPrefs.SetInt("Science", 50);
+        PlayerPrefs.SetInt("DaysSurvived", 0);
         SceneManager.LoadScene(2);
     }
 
