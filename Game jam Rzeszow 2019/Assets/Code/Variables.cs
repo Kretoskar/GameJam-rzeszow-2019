@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Variables : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class Variables : MonoBehaviour
             if (people > 100)
                 people = 100;
             if (people < 0)
-                people = 0;
+                GameOver();
             peopleImg.fillAmount = (float)people / 100;
             PlayerPrefs.SetInt("People", people);
         }
@@ -44,7 +45,7 @@ public class Variables : MonoBehaviour
             if (nature > 100)
                 nature = 100;
             if (nature < 0)
-                nature = 0;
+                GameOver();
             natureImg.fillAmount = (float)nature / 100;
             PlayerPrefs.SetInt("Nature", nature);
         }
@@ -62,7 +63,7 @@ public class Variables : MonoBehaviour
             if (industry > 100)
                 industry = 100;
             if (industry < 0)
-                industry = 0;
+                GameOver();
             industryImg.fillAmount = (float)industry / 100;
             PlayerPrefs.SetInt("Industry", industry);
         }
@@ -80,7 +81,7 @@ public class Variables : MonoBehaviour
             if (science > 100)
                 science = 100;
             if (science < 0)
-                science = 0;
+                GameOver();
             scienceImg.fillAmount = (float)science / 100;
             PlayerPrefs.SetInt("Science", science);
         }
@@ -106,5 +107,15 @@ public class Variables : MonoBehaviour
         Industry = PlayerPrefs.GetInt("Industry", 50);
         Science = PlayerPrefs.GetInt("Science", 50);
         DaysSurvived = PlayerPrefs.GetInt("DaysSurvived", 0);
+    }
+
+    private void GameOver()
+    {
+        PlayerPrefs.SetInt("People", 50);
+        PlayerPrefs.SetInt("Nature", 50);
+        PlayerPrefs.SetInt("Industry", 50);
+        PlayerPrefs.SetInt("Science", 50);
+        PlayerPrefs.SetInt("DaysSurvived", 0);
+        SceneManager.LoadScene(3);
     }
 }
