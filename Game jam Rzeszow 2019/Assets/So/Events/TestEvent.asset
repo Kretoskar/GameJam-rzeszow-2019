@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
-  m_Name: 1
+  m_Name: TestEvent
   m_EditorClassIdentifier: 
-  eventText: something happend
-  answerAText: do A
-  answerBText: do B
-  answerCText: do C
+  eventText: Jedna z firm ma wyjebane na zakazy
+  answerAText: "na\u0142o\u017Cy\u0107 ma\u0142e ograniczenia"
+  answerBText: "niech se robi\u0105, daj\u0105 du\u017Co $"
+  answerCText: "na\u0142o\u017Cy\u0107 du\u017Ce ograniczenia"
   backgroundSprite: {fileID: 0}
-  eventType: 0
+  eventType: 2
   AToPeople: -10
-  AToNature: 1
-  AToIndustry: 12
+  AToNature: -5
+  AToIndustry: -5
   AToScience: -5
-  BToPeople: 3
-  BToNature: 34
-  BToIndustry: 3
-  BToScience: -2
-  CToPeople: 8
+  BToPeople: -20
+  BToNature: -40
+  BToIndustry: 50
+  BToScience: 10
+  CToPeople: 5
   CToNature: 20
-  CToIndustry: -10
-  CToScience: -100
+  CToIndustry: -20
+  CToScience: -10

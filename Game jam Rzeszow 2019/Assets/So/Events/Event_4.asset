@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
+  m_Name: Event_4
+  m_EditorClassIdentifier: 
+  eventText: "To jest najgor\u0119tsze lato w historii. Ju\u017C od kilku tygodni
+    zmagamy si\u0119 z nieustaj\u0105cymi po\u017Carami. P\u0142on\u0105 g\u0142\xF3wnie
+    lasy, ale ogie\u0144 jest coraz bli\u017Cej gospodarstw znajduj\u0105cych si\u0119
+    tu\u017C pod miastem.  "
+  answerAText: "Wykorzystamy ci\u0119\u017Cki sprz\u0119t, aby walczy\u0107 z \u017Cywio\u0142em.
+    Musimy za wszelk\u0105 cen\u0119 powstrzyma\u0107 ogie\u0144."
+  answerBText: "Trudne czasy wymagaj\u0105 trudnych decyzji. Musimy zaanga\u017Cowa\u0107
+    do pomocy ka\u017Cd\u0105, dyspozycyjn\u0105 doros\u0142\u0105 osob\u0119."
+  answerCText: "Zmiany klimatyczne s\u0105 cz\u0119\u015Bci\u0105 naszej rzeczywisto\u015Bci
+    i musimy nauczy\u0107 si\u0119 je akceptowa\u0107. Jedyne co mo\u017Cemy zrobi\u0107
+    to przesiedli\u0107 mieszka\u0144c\xF3w zagro\u017Conych rejon\xF3w.."
+  backgroundSprite: {fileID: 0}
+  eventType: 1
+  AToPeople: 10
+  AToNature: -30
+  AToIndustry: -30
+  AToScience: -10
+  BToPeople: -30
+  BToNature: -25
+  BToIndustry: -10
+  BToScience: -15
+  CToPeople: -25
+  CToNature: -40
+  CToIndustry: 10
+  CToScience: -10

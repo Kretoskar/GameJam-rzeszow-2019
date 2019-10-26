@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
+  m_Name: Event_13
+  m_EditorClassIdentifier: 
+  eventText: "Konsekwencj\u0105 rekordowych opad\xF3w by\u0142a dramatyczna pow\xF3d\u017A,
+    kt\xF3ra ca\u0142kowicie zdewastowa\u0142a cmentarze. Trumny oraz gnij\u0105ce
+    cia\u0142a p\u0142ywaj\u0105 po ulicach miasta, a ludzie s\u0105 odci\u0119ci! "
+  answerAText: "Koniec jest bliski! Czekajmy wsp\xF3lnie na nadej\u015Bcie pana!  "
+  answerBText: "Musimy podj\u0105\u0107 szybkie dzia\u0142ania we wsp\xF3\u0142pracy
+    z lokalnymi s\u0142u\u017Cbami oraz rozwa\u017Cnymi epidemiologami. "
+  answerCText: "Przede wszystkim postaramy si\u0119 dotrze\u0107 do rolnik\xF3w, kt\xF3rych
+    zwierz\u0119ta tak\u017Ce mog\u0142y ucierpie\u0107 wskutek tej kl\u0119ski. "
+  backgroundSprite: {fileID: 0}
+  eventType: 0
+  AToPeople: -10
+  AToNature: -30
+  AToIndustry: -15
+  AToScience: -60
+  BToPeople: -10
+  BToNature: -10
+  BToIndustry: -15
+  BToScience: 15
+  CToPeople: 15
+  CToNature: -15
+  CToIndustry: -15
+  CToScience: -10

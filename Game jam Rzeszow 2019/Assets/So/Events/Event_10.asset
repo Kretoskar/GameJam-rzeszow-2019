@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
+  m_Name: Event_10
+  m_EditorClassIdentifier: 
+  eventText: "W\u015Bciek\u0142y Sylvester Stallone zamordowa\u0142 pi\u0119ciu naukowc\xF3w
+    z laboratorium usytuowanego nieopodal centrum miasta. "
+  answerAText: "Nale\u017Cy zlikwidowa\u0107 Sylvestra Stallone\u2019a, nawet je\u015Bli
+    jest ikoniczn\u0105 postaci\u0105 dla naszego spo\u0142ecze\u0144stwa. "
+  answerBText: "Musimy zmusi\u0107 Sylvestra Stallone\u2019a do zabijania kogo\u015B
+    innego. "
+  answerCText: "Resocjalizujemy Sylvestra Stallone, kt\xF3ry po wyj\u015Bciu z paki
+    stanie si\u0119 drwalem.   "
+  backgroundSprite: {fileID: 0}
+  eventType: 0
+  AToPeople: -20
+  AToNature: -15
+  AToIndustry: 0
+  AToScience: 10
+  BToPeople: 15
+  BToNature: 0
+  BToIndustry: -15
+  BToScience: 10
+  CToPeople: 10
+  CToNature: -20
+  CToIndustry: -15
+  CToScience: 10

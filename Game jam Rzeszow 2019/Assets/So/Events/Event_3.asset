@@ -10,23 +10,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
-  m_Name: 3
+  m_Name: Event_3
   m_EditorClassIdentifier: 
-  eventText: something happend 3
-  answerAText: do A
-  answerBText: do B
-  answerCText: do C
+  eventText: 'Co dzisiaj na obiad?  '
+  answerAText: "Zupka chi\u0144ska."
+  answerBText: Pizza hawajska.
+  answerCText: "Zrobimy wielkie zakupy, kt\xF3re spakujemy do wielu foliowych reklam\xF3wek."
   backgroundSprite: {fileID: 0}
-  eventType: 2
+  eventType: 1
   AToPeople: 10
   AToNature: 0
-  AToIndustry: 12
-  AToScience: -2
-  BToPeople: 20
-  BToNature: 12
-  BToIndustry: 3
+  AToIndustry: -15
+  AToScience: 20
+  BToPeople: -40
+  BToNature: 15
+  BToIndustry: -10
   BToScience: 0
   CToPeople: 10
-  CToNature: -20
-  CToIndustry: 3
-  CToScience: -100
+  CToNature: -25
+  CToIndustry: -10
+  CToScience: 0
