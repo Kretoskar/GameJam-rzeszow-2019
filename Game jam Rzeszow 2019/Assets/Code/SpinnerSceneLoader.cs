@@ -5,9 +5,16 @@ using UnityEngine.SceneManagement;
 
 public class SpinnerSceneLoader : MonoBehaviour
 {
+    private CurrentEvent currEvent;
+
+    private void Start()
+    {
+        currEvent = FindObjectOfType<CurrentEvent>();
+    }
 
     public void LoadSpinner()
     {
-        SceneManager.LoadScene(2);
+        if(currEvent.WasCurrentEventClicked)
+            SceneManager.LoadScene(2);
     }
 }

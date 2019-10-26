@@ -120,6 +120,12 @@ public class Variables : MonoBehaviour
         PlayerPrefs.SetInt("Industry", 50);
         PlayerPrefs.SetInt("Science", 50);
         PlayerPrefs.SetInt("DaysSurvived", 0);
+        StartCoroutine("GOCoroutine");
+    }
+
+    private IEnumerator GOCoroutine()
+    {
+        yield return new WaitForSeconds(2);
         SceneManager.LoadScene(3);
     }
 }
