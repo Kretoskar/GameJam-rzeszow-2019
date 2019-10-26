@@ -389,7 +389,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Days survived:'
+  m_Text: 'Dni:'
 --- !u!222 &161460502
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -468,7 +468,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Spin
+  m_Text: Losuj
 --- !u!222 &375979418
 CanvasRenderer:
   m_ObjectHideFlags: 0
