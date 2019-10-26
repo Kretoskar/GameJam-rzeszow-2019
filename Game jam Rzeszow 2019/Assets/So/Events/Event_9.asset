@@ -12,21 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_9
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: "Grupa os\xF3b zaniepokojonych zmianami klimatycznymi rozpocz\u0119\u0142a
+    anarchistyczne dzia\u0142ania w mie\u015Bcie. Kolejne akty wandalizmu maj\u0105
+    zwr\xF3ci\u0107 uwag\u0119 na eskaluj\u0105cy problem klimatyczny.  "
+  answerAText: "Sytuacja jest powa\u017Cna, mogli\u015Bmy si\u0119 spodziewa\u0107
+    takiej reakcji. Niepos\u0142usze\u0144stwo nale\u017Cy jednak kara\u0107.   "
+  answerBText: "Powinni\u015Bmy podj\u0105\u0107 wsp\xF3lny dialog, kt\xF3rego mediatorem
+    b\u0119d\u0105 lokalni naukowcy zajmuj\u0105cy si\u0119 problemem. C"
+  answerCText: "Czasem najlepszym rozwi\u0105zaniem jest bierno\u015B\u0107. "
   backgroundSprite: {fileID: 0}
   eventType: 0
-  AToPeople: 0
+  AToPeople: -40
   AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
-  BToScience: 0
-  CToPeople: 0
+  AToIndustry: 10
+  AToScience: -15
+  BToPeople: 15
+  BToNature: 15
+  BToIndustry: 15
+  BToScience: 10
+  CToPeople: -15
   CToNature: 0
-  CToIndustry: 0
-  CToScience: 0
+  CToIndustry: -10
+  CToScience: -10

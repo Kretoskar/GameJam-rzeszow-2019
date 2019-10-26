@@ -12,21 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_7
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: "Pojawi\u0142y si\u0119 plotki, \u017Ce plac\xF3wki badawcze produkuj\u0105
+    toksyczne chemikalia, kt\xF3re powa\u017Cnie mog\u0105 zagrozi\u0107 mieszka\u0144com
+    miasta. Cz\u0119\u015B\u0107 ludzi domaga si\u0119 odpowiedniej interwencji.  "
+  answerAText: "Wiadomo\u015Bci o odpadach to kolejny wymys\u0142 foliarzy. To nauka
+    powiedzie nas ku lepszej przysz\u0142o\u015Bci!   "
+  answerBText: "Musimy dzia\u0142a\u0107 zapobiegawczo. Wprowadzimy regulacje pracy
+    plac\xF3wek badawczych oraz fabryk.  "
+  answerCText: "Nale\u017Cy s\u0142ucha\u0107 g\u0142osu ludzi. Utworzymy nowe wysypiska
+    do sk\u0142adowania promieniotw\xF3rczych odpad\xF3w"
   backgroundSprite: {fileID: 0}
-  eventType: 0
-  AToPeople: 0
-  AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
-  BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
-  CToScience: 0
+  eventType: 3
+  AToPeople: 5
+  AToNature: 10
+  AToIndustry: 10
+  AToScience: -35
+  BToPeople: 5
+  BToNature: 10
+  BToIndustry: 10
+  BToScience: -35
+  CToPeople: 10
+  CToNature: -15
+  CToIndustry: -30
+  CToScience: 10

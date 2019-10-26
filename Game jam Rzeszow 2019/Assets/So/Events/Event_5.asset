@@ -12,21 +12,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_5
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: "Nowy plan zalesiania mia\u0142 wchodzi\u0107 w \u017Cycie, gdy jedna
+    z zagranicznych firm postanowi\u0142a zainwestowa\u0107 w budow\u0119 fabryki
+    samochod\xF3w, kt\xF3ra zaoferuje tysi\u0105ce nowych miejsc pracy.  "
+  answerAText: "Problemy zwi\u0105zane z naszym \u015Brodowiskiem naturalnym post\u0119puj\u0105.
+    Nie mo\u017Cemy rezygnowa\u0107 z kolejnych program\xF3w na rzecz potencjalnego
+    zysku. "
+  answerBText: "Przemys\u0142 samochodowy to fantastyczna rzecz. We\u017Amy na przyk\u0142ad
+    cho\u0107by Detroit!  "
+  answerCText: "Specjalny program ochrony wyznaczonych teren\xF3w powinien za\u0142atwi\u0107
+    spraw\u0119.  "
   backgroundSprite: {fileID: 0}
-  eventType: 0
-  AToPeople: 0
-  AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
-  BToScience: 0
+  eventType: 1
+  AToPeople: -20
+  AToNature: 25
+  AToIndustry: 20
+  AToScience: -10
+  BToPeople: -10
+  BToNature: -20
+  BToIndustry: -40
+  BToScience: 10
   CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
-  CToScience: 0
+  CToNature: 50
+  CToIndustry: 20
+  CToScience: -10

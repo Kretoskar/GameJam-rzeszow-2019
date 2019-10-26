@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: TestEvent
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: Jedna z firm ma wyjebane na zakazy
+  answerAText: "na\u0142o\u017Cy\u0107 ma\u0142e ograniczenia"
+  answerBText: "niech se robi\u0105, daj\u0105 du\u017Co $"
+  answerCText: "na\u0142o\u017Cy\u0107 du\u017Ce ograniczenia"
   backgroundSprite: {fileID: 0}
-  eventType: 0
-  AToPeople: 0
-  AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
-  BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
-  CToScience: 0
+  eventType: 2
+  AToPeople: -10
+  AToNature: -5
+  AToIndustry: -5
+  AToScience: -5
+  BToPeople: -20
+  BToNature: -40
+  BToIndustry: 50
+  BToScience: 10
+  CToPeople: 5
+  CToNature: 20
+  CToIndustry: -20
+  CToScience: -10

@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_3
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: 'Co dzisiaj na obiad?  '
+  answerAText: "Zupka chi\u0144ska."
+  answerBText: Pizza hawajska.
+  answerCText: "Zrobimy wielkie zakupy, kt\xF3re spakujemy do wielu foliowych reklam\xF3wek."
   backgroundSprite: {fileID: 0}
-  eventType: 0
-  AToPeople: 0
+  eventType: 1
+  AToPeople: 10
   AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
+  AToIndustry: -15
+  AToScience: 20
+  BToPeople: -40
+  BToNature: 15
+  BToIndustry: -10
   BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
+  CToPeople: 10
+  CToNature: -25
+  CToIndustry: -10
   CToScience: 0

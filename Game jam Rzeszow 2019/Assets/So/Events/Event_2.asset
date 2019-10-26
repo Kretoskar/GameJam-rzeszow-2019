@@ -12,21 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_2
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: "W zwi\u0105zku z wysokimi temperaturami oraz susz\u0105, ucierpia\u0142y
+    uprawy zlokalizowane na peryferiach miasta. Bezradni rolnicy rozk\u0142adaj\u0105
+    r\u0119ce i zwracaj\u0105 si\u0119 o pomoc.  "
+  answerAText: "Rolnictwo w dzisiejszym, wysoko zmodernizowanym \u015Bwiecie to prze\u017Cytek.
+    Wykupmy ziemie rolnik\xF3w i rozwi\u0144my na nich infrastruktur\u0119."
+  answerBText: "Jedynie kolektywne dzia\u0142ania pozwol\u0105 nam przetrwa\u0107
+    kolejny kryzys. Zach\u0119\u0107my wszystkich do dzia\u0142ania"
+  answerCText: "Zorganizujemy demonstracj\u0119, kt\xF3ry udowodni wszystkim jak fatalna
+    jest sytuacja\u2026 miejmy nadziej\u0119\u2026"
   backgroundSprite: {fileID: 0}
-  eventType: 0
-  AToPeople: 0
-  AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
+  eventType: 1
+  AToPeople: -20
+  AToNature: -30
+  AToIndustry: 30
+  AToScience: 10
+  BToPeople: 10
+  BToNature: 10
+  BToIndustry: 15
   BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
-  CToScience: 0
+  CToPeople: -20
+  CToNature: 10
+  CToIndustry: -15
+  CToScience: 10

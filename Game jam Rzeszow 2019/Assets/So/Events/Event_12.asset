@@ -12,21 +12,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_12
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: "W zwi\u0105zku z topnieniem lodowc\xF3w poziom oceanu si\u0119 podnosi.
+    Kolejne po\u0142acie terenu zostaj\u0105 poch\u0142oni\u0119te przez wielk\u0105
+    wod\u0119. "
+  answerAText: "Musimy dokona\u0107 modernizacji wa\u0142\xF3w przeciwpowodziowych. "
+  answerBText: "Nale\u017Cy zmusi\u0107 ludzi do wypicia ca\u0142ej wody z zalanych
+    teren\xF3w. Niech si\u0119 do czego\u015B przydadz\u0105. "
+  answerCText: "Mieszka\u0144cy tamtych teren\xF3w sami musz\u0105 podj\u0105\u0107
+    decyzj\u0119 o miejscu zamieszkania. Nikt ich nie zmusi do przesiedle\u0144.   "
   backgroundSprite: {fileID: 0}
   eventType: 0
-  AToPeople: 0
-  AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
-  BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
-  CToScience: 0
+  AToPeople: 20
+  AToNature: 10
+  AToIndustry: -30
+  AToScience: 10
+  BToPeople: -45
+  BToNature: 10
+  BToIndustry: 15
+  BToScience: -20
+  CToPeople: -20
+  CToNature: -15
+  CToIndustry: 10
+  CToScience: -10

@@ -12,21 +12,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_8
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: "Sto kilogram\xF3w z\u0142omu z uszkodzonego chi\u0144skiego satelity
+    spad\u0142o na ogr\xF3dki naszych obywateli. Niekt\xF3rzy z nich odnie\u015Bli
+    powa\u017Cny uszczerbek na zdrowiu. "
+  answerAText: "In\u017Cynierowie i fizycy z ch\u0119ci\u0105 przyjrz\u0105 si\u0119
+    pozosta\u0142o\u015Bciom. Wydamy im pozwolenie na rozpocz\u0119cie akcji na posesjach
+    obywateli.  "
+  answerBText: "Nie wiemy czy inne fragmenty nie spad\u0142y w okoliczne lasy. Nale\u017Cy
+    to usun\u0105\u0107. "
+  answerCText: "Satelita nie by\u0142 nasz \u2013 poczekamy na delegacj\u0119 z Chin. "
   backgroundSprite: {fileID: 0}
-  eventType: 0
-  AToPeople: 0
-  AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
+  eventType: 3
+  AToPeople: -20
+  AToNature: -20
+  AToIndustry: -10
+  AToScience: 25
+  BToPeople: 10
+  BToNature: 15
+  BToIndustry: -20
   BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
-  CToScience: 0
+  CToPeople: -10
+  CToNature: -20
+  CToIndustry: -10
+  CToScience: -10

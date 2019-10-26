@@ -12,21 +12,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_11
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
-  answerBText: 
-  answerCText: 
+  eventText: "Popularno\u015B\u0107 w mie\u015Bcie zdobywa grupa m\u0142odych aktywist\xF3w,
+    kt\xF3rzy staraj\u0105 si\u0119 zwi\u0119ksza\u0107 spo\u0142eczn\u0105 \u015Bwiadomo\u015B\u0107
+    zwi\u0105zan\u0105 z globalnym ociepleniem.  "
+  answerAText: "W mojej wielkiej i niezr\xF3wnanej m\u0105dro\u015Bci zadecydowa\u0142em,
+    \u017Ce nale\u017Cy zakaza\u0107 tego typu demonstracji. Globalne ocieplenie to
+    mit.  "
+  answerBText: "Dobrze, \u017Ce m\u0142odzi ludzie walcz\u0105 o przysz\u0142o\u015B\u0107
+    naszej planety. Nale\u017Cy uhonorowa\u0107 ca\u0142\u0105 grup\u0119 specjalnym
+    stypendium. "
+  answerCText: "Zach\u0119\u0107my tych m\u0142odych aktywist\xF3w do zorganizowania
+    serii lokalnych dzia\u0142a\u0144 zwi\u0105zanych z sozologi\u0105."
   backgroundSprite: {fileID: 0}
   eventType: 0
-  AToPeople: 0
-  AToNature: 0
-  AToIndustry: 0
-  AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
-  BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
+  AToPeople: -5
+  AToNature: -10
+  AToIndustry: -25
+  AToScience: -20
+  BToPeople: -10
+  BToNature: 5
+  BToIndustry: 10
+  BToScience: 15
+  CToPeople: 15
+  CToNature: 20
+  CToIndustry: 10
   CToScience: 0

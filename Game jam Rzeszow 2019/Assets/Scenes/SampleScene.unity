@@ -512,10 +512,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   events:
-  - {fileID: 11400000, guid: 24fa912f5e9734c4398f9ee3728eb9e3, type: 2}
-  - {fileID: 11400000, guid: 75e47cf0d1e2a4d42bcba7f1d38cbc89, type: 2}
-  - {fileID: 11400000, guid: 6ae7a47abb12c1d4781bbd324f7b8d41, type: 2}
   - {fileID: 11400000, guid: 71a706547b265a14fb6e44595649dd98, type: 2}
+  - {fileID: 11400000, guid: 767d878b81994c94d82c0dd9c60a47e6, type: 2}
+  - {fileID: 11400000, guid: f94f5886c488dbd4ebf2e6c41aebdb7a, type: 2}
+  - {fileID: 11400000, guid: b33b03d421fdf6f40a34ebad790d3a58, type: 2}
+  - {fileID: 11400000, guid: 38eb41ccfd5ab2f43bcc7522d80f8944, type: 2}
+  - {fileID: 11400000, guid: 5a249cddeb3ea7f4ea44c612f67686b6, type: 2}
+  - {fileID: 11400000, guid: 98a437c6e007d3c4fa1be08ccc9e1312, type: 2}
+  - {fileID: 11400000, guid: 7c4e1e5365ceafc42b47d6d54ae507c2, type: 2}
+  - {fileID: 11400000, guid: ad6955575c01ec34f8eecf225589b28b, type: 2}
+  - {fileID: 11400000, guid: 46ef77726da38684bb4482b1491ecab4, type: 2}
+  - {fileID: 11400000, guid: fb56c54ad7babec4d90c088336d40daf, type: 2}
+  - {fileID: 11400000, guid: 27864e6af9368fd4ab1ffd4979e6d284, type: 2}
+  - {fileID: 11400000, guid: af253631812cd054bb271bb9cb76a2f9, type: 2}
+  - {fileID: 11400000, guid: 3e7f6d67216aa6b408a28d4a951f4bb3, type: 2}
 --- !u!4 &445907864
 Transform:
   m_ObjectHideFlags: 0
@@ -2502,7 +2512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e56c77a94dd314cab275a39ee858f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  eventSo: {fileID: 11400000, guid: 24fa912f5e9734c4398f9ee3728eb9e3, type: 2}
+  eventSo: {fileID: 0}
   eventText: {fileID: 1267250096}
   answerAText: {fileID: 2072759196}
   answerBText: {fileID: 1375648113}
