@@ -15,6 +15,8 @@ public class Variables : MonoBehaviour
     [SerializeField]
     private Image scienceImg;
 
+    private Fader fader;
+
     private int people;
     public int People {
         get
@@ -117,6 +119,11 @@ public class Variables : MonoBehaviour
         DaysSurvived = PlayerPrefs.GetInt("DaysSurvived", 0);
     }
 
+    private void Start()
+    {
+        fader = FindObjectOfType<Fader>();
+    }
+
     private void GameOver()
     {
         PlayerPrefs.SetInt("People", 50);
@@ -131,6 +138,6 @@ public class Variables : MonoBehaviour
     {
         isDead = true;
         yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(3);
+        fader.LoadScene(3);
     }
 }
