@@ -12,14 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 101d3692107bf84458b34639ddf2fafa, type: 3}
   m_Name: Event_14
   m_EditorClassIdentifier: 
-  eventText: 
-  answerAText: 
+  eventText: "Okoliczna fabryka stali u\u017Cywa starego sprz\u0119tu, przekracza
+    normy spalania, generuj\u0105c tym samym wi\u0119cej zanieczyszcze\u0144."
+  answerAText: "Firma generuje du\u017Ce zyski, nie b\u0119dziemy miesza\u0107 si\u0119
+    w ich sprawy."
   answerBText: 
   answerCText: 
   backgroundSprite: {fileID: 0}
-  eventType: 0
-  AToPeople: 0
-  AToNature: 0
+  eventType: 2
+  AToPeople: -10
+  AToNature: -20
   AToIndustry: 0
   AToScience: 0
   BToPeople: 0
