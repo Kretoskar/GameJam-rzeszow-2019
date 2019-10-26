@@ -5,18 +5,26 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuButtons : MonoBehaviour
 {
+    private Fader fader;
+
+    private void Start()
+    {
+        fader = FindObjectOfType<Fader>();
+    }
+
     public void NewGame()
     {
+        print("x");
         PlayerPrefs.SetInt("People", 50);
         PlayerPrefs.SetInt("Nature", 50);
         PlayerPrefs.SetInt("Industry", 50);
         PlayerPrefs.SetInt("Science", 50);
         PlayerPrefs.SetInt("DaysSurvived", 0);
-        SceneManager.LoadScene(2);
+        fader.LoadScene(2);
     }
 
     public void LoadGame()
     {
-        SceneManager.LoadScene(2);
+        fader.LoadScene(2);
     }
 }
