@@ -13,6 +13,6 @@ public class SpinnerUI : MonoBehaviour
     private void Start()
     {
         vars = FindObjectOfType<Variables>();
-        daysSurvivedText.text = "Days survived: " + vars.DaysSurvived.ToString();
+        daysSurvivedText.text = "Dni: " + vars.DaysSurvived.ToString();
     }
 }
