@@ -24,9 +24,9 @@ public class Variables : MonoBehaviour
         set
         {
             people = value;
-            if (people > 100)
-                people = 100;
-            if (people < 0)
+            if (people >= 100)
+                GameOver();
+            if (people <= 0)
                 GameOver();
             if(peopleImg != null)
                 peopleImg.fillAmount = (float)people / 100;
@@ -43,9 +43,9 @@ public class Variables : MonoBehaviour
         set
         {
             nature = value;
-            if (nature > 100)
-                nature = 100;
-            if (nature < 0)
+            if (nature >= 100)
+                GameOver();
+            if (nature <= 0)
                 GameOver();
             if(natureImg != null)
                 natureImg.fillAmount = (float)nature / 100;
@@ -62,9 +62,9 @@ public class Variables : MonoBehaviour
         set
         {
             industry = value;
-            if (industry > 100)
-                industry = 100;
-            if (industry < 0)
+            if (industry >= 100)
+                GameOver();
+            if (industry <= 0)
                 GameOver();
             if(industryImg != null)
                 industryImg.fillAmount = (float)industry / 100;
@@ -81,9 +81,9 @@ public class Variables : MonoBehaviour
         set
         {
             science = value;
-            if (science > 100)
-                science = 100;
-            if (science < 0)
+            if (science >= 100)
+                GameOver();
+            if (science <= 0)
                 GameOver();
             if(scienceImg != null)
                 scienceImg.fillAmount = (float)science / 100;
