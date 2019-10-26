@@ -16,19 +16,19 @@ MonoBehaviour:
     normy spalania, generuj\u0105c tym samym wi\u0119cej zanieczyszcze\u0144."
   answerAText: "Firma generuje du\u017Ce zyski, nie b\u0119dziemy miesza\u0107 si\u0119
     w ich sprawy."
-  answerBText: 
-  answerCText: 
+  answerBText: "Nale\u017Cy natychmiast zatrzyma\u0107 produkcje!"
+  answerCText: "Zmu\u015Bmy firm\u0119 do wybrania nowego zarz\u0105du."
   backgroundSprite: {fileID: 0}
   eventType: 2
   AToPeople: -10
   AToNature: -20
-  AToIndustry: 0
+  AToIndustry: -10
   AToScience: 0
-  BToPeople: 0
-  BToNature: 0
-  BToIndustry: 0
+  BToPeople: -15
+  BToNature: 25
+  BToIndustry: 10
   BToScience: 0
-  CToPeople: 0
-  CToNature: 0
-  CToIndustry: 0
+  CToPeople: 15
+  CToNature: -10
+  CToIndustry: -15
   CToScience: 0
