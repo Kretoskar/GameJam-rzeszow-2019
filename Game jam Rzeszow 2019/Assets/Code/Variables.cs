@@ -104,6 +104,10 @@ public class Variables : MonoBehaviour
         }
     }
 
+    private bool isDead = false;
+    public bool IsDead { get => isDead; set => isDead = value; }
+
+
     private void Awake()
     {
         People = PlayerPrefs.GetInt("People", 50);
@@ -125,6 +129,7 @@ public class Variables : MonoBehaviour
 
     private IEnumerator GOCoroutine()
     {
+        isDead = true;
         yield return new WaitForSeconds(2);
         SceneManager.LoadScene(3);
     }
