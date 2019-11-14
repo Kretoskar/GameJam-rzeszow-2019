@@ -6,9 +6,11 @@ using UnityEngine.SceneManagement;
 public class Needle : MonoBehaviour
 {
     private Spinner spinner;
+    private Fader fader;
 
     private void Start()
     {
+        fader = FindObjectOfType<Fader>();
         spinner = FindObjectOfType<Spinner>();
     }
 
@@ -17,12 +19,6 @@ public class Needle : MonoBehaviour
         if (!spinner.IsStoped)
             return;
         FindObjectOfType<EventToLoad>().SetEventToLoad(collision.gameObject.GetComponent<SpinnerBiom>().BiomType);
-        StartCoroutine("LoadSceneAfterSeconds");
-    }
-
-    IEnumerator LoadSceneAfterSeconds()
-    {
-        yield return new WaitForSeconds(2);
-        SceneManager.LoadScene(1);
+        fader.LoadScene(1);
     }
 }
